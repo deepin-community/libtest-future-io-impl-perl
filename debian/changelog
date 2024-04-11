@@ -1,5 +1,19 @@
-template-repository (1.0-1) unstable; urgency=medium
+libtest-future-io-impl-perl (0.14-3) unstable; urgency=medium
 
-  * Initial release
+  * Add 0001-syswrite-test-unclog-the-pipe-harder.patch which was in
+    libfuture-io-perl before, like the file we are patching
+    (lib/Test/Future/IO/Impl.pm).
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- gregor herrmann <gregoa@debian.org>  Wed, 05 Jul 2023 21:29:12 +0200
+
+libtest-future-io-impl-perl (0.14-2) unstable; urgency=medium
+
+  * No-change source-only re-upload.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 04 Jul 2023 21:56:06 +0200
+
+libtest-future-io-impl-perl (0.14-1) unstable; urgency=low
+
+  * Initial release (closes: #1039016).
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 24 Jun 2023 17:19:18 +0200
